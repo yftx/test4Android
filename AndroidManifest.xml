@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.github.yftx.android"
+          package="com.github.yftx.test"
           android:versionCode="1"
           android:versionName="1.0-SNAPSHOT">
 
@@ -9,15 +9,29 @@
             android:targetSdkVersion="14"/>
 
     <application
-            android:icon="@drawable/icon"
-            android:label="@string/app_name">
-        <activity android:name=".HelloAndroidActivity">
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Test"
+            android:name=".App">
+        <!--custom tag start -->
+        <!--Log level-->
+        <meta-data
+                android:name="LOG_LEVEL"
+                android:value="1"/>
+        <!--debug model -->
+        <meta-data
+                android:name="DEBUG"
+                android:value="false"/>
+        <!-- custom tag end -->
+
+
+        <activity android:name=".ui.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.TestAutoCompleteDemo"/>
     </application>
-
 </manifest>
 

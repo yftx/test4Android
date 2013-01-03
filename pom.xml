@@ -13,6 +13,9 @@
         <abs.version>4.2.0</abs.version>
         <roboguice.version>2.0</roboguice.version>
         <wishlist.version>0.8</wishlist.version>
+        <roboguice-sherlock.version>1.5</roboguice-sherlock.version>
+        <guava.version>13.0.1</guava.version>
+        <junit.version>4.10</junit.version>
     </properties>
 
     <dependencies>
@@ -27,6 +30,11 @@
             <artifactId>library</artifactId>
             <version>${abs.version}</version>
             <type>apklib</type>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rtyley</groupId>
+            <artifactId>roboguice-sherlock</artifactId>
+            <version>${roboguice-sherlock.version}</version>
         </dependency>
         <dependency>
             <groupId>org.roboguice</groupId>
@@ -44,6 +52,17 @@
            <artifactId>support-v4</artifactId>
            <version>r7</version>
          </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

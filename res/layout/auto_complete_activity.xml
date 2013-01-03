@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+            android:id="@+id/act_one"
+            style="@style/LoginEditText"
+            android:completionThreshold="1"
+            android:imeOptions="actionNext"
+            android:hint="读取固定数据"
+            />
+
+    <AutoCompleteTextView
+            android:layout_below="@id/act_one"
+            android:id="@+id/act_two"
+            style="@style/LoginEditText"
+            android:layout_marginTop="150dp"
+            android:completionThreshold="1"
+            android:imeOptions="actionNext"
+            android:hint="模拟读取网络数据"
+            />
+</RelativeLayout>

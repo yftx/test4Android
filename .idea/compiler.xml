@@ -31,10 +31,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="test4All" />
+        <module name="test4Android" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="test4All" target="1.5" />
+      <module name="test4All" target="1.6" />
+      <module name="test4Android" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

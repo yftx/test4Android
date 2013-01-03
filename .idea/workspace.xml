@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="LogUtils" />
+        <option name="name" value="LogUtils" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="targetHashString" value="android-14" />
+        <option name="theme" value="Theme.Test" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
   <component name="AndroidExternalApklibDependenciesManager">
     <artifacts>
       <entry key="com.actionbarsherlock_actionbarsherlock_4.2.0" value="$MAVEN_REPOSITORY$/com/actionbarsherlock/actionbarsherlock/4.2.0/actionbarsherlock-4.2.0.apklib" />
@@ -224,103 +246,123 @@
       </entry>
     </sdk-infos>
   </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-14" />
+        <option name="theme" value="Theme.Test" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0d2f864-9ef8-4da1-bc92-92a274cd6673" name="Default" comment="" />
+    <list default="true" id="a0d2f864-9ef8-4da1-bc92-92a274cd6673" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/ContextManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/GenericTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/HttpException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/InfoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/LogUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_actionbarsherlock_actionbarsherlock_apklib_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_kevinsawicki_wishlist_apklib_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_rtyley_roboguice_sherlock_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_13_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/SimpleFeedBack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskFeedback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/yftx/test/ui/TestAutoCompleteDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test/com/github/yftx/test/TestCommon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/auto_complete_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/auto_complete_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/edit_text_background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/edit_text_cursor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fade_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/fade_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="DELETED" beforePath="E:\myGitRepo\test4Android\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\myGitRepo\test4Android\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\myGitRepo\test4Android\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\myGitRepo\test4Android\src\main\java\com\github\yftx\android\HelloAndroidActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_0_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\myGitRepo\test4Android\test4All.iml" afterPath="$PROJECT_DIR$/test4Android.iml" />
+    </list>
     <ignored path="test4All.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/res/layout/main.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356623816034" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356625757486" ignored="false" />
     <file path="/HelloAndroidActivity.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356623888717" ignored="false" />
-    <file path="/Dummy.txt" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356625074473" ignored="false" />
+    <file path="/Dummy.txt" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357217727198" ignored="false" />
     <file path="/pom.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624162333" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__btn_cab_done_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__styles.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__btn_cab_done_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__ic_clear.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-land/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-large/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__ic_clear_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__item_background_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__item_background_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-large-mdpi-1024x600/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-sw600dp/abs__bools.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-sw600dp/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__list_selector_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-v11/abs__themes.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__list_selector_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-v14/abs__styles.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-v14/abs__themes.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__progress_horizontal_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-w360dp/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__progress_medium_holo.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-w480dp/abs__bools.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__search_dropdown_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-w480dp/abs__config.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__search_dropdown_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__spinner_ab_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__spinner_ab_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-xlarge/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__tab_indicator_ab_holo.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__textfield_searchview_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__textfield_searchview_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__textfield_searchview_right_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__textfield_searchview_right_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable-v11/abs__progress_medium_holo.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/AndroidManifest.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_bar_tab.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_bar_tab_bar_view.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_bar_title_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_menu_item_layout.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_menu_layout.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_mode_bar.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_mode_close_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__activity_chooser_view.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__activity_chooser_view_list_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__dialog_title_holo.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__list_menu_item_checkbox.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__list_menu_item_radio.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__screen_action_bar_overlay.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__screen_simple.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__screen_simple_overlay_action_mode.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__search_dropdown_item_icons_2line.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__search_view.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__simple_dropdown_hint.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/sherlock_spinner_dropdown_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/sherlock_spinner_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout-large/abs__action_mode_close_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout-xlarge/abs__screen_action_bar_overlay.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__attrs.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/color/abs__primary_text_disable_only_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__config.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__ids.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__activated_background_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__strings.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__list_selector_background_transition_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__list_selector_background_transition_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__progress_horizontal_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__action_bar_home.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__list_menu_item_icon.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__list_menu_item_layout.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__popup_menu_item_layout.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout/abs__screen_action_bar.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout-v14/sherlock_spinner_dropdown_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/color/abs__primary_text_disable_only_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/color/abs__primary_text_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/color/abs__primary_text_holo_light.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/drawable/abs__activated_background_holo_dark.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624152922" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-w500dp/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-w600dp/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout-v14/sherlock_spinner_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/layout-xlarge/abs__screen_action_bar.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__bools.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__colors.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values/abs__themes.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
     <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-large-hdpi-1024x600/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-large-land-hdpi-1024x600/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
-    <file path="$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/res/values-large-land-mdpi-1024x600/abs__dimens.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1356624153222" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357044600669" ignored="false" />
+    <file path="/a.dummy" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357213840864" ignored="false" />
+    <file path="/strings.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357044109380" ignored="false" />
+    <file path="/fragment.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357207912643" ignored="false" />
+    <file path="/main.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357044998809" ignored="false" />
+    <file path="/HomeActivity.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357048271512" ignored="false" />
+    <file path="/TestAutoCompleteDemo.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357219707336" ignored="false" />
+    <file path="E:/idea/github_android/app/pom.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046760434" ignored="false" />
+    <file path="E:/idea/github_android/app/AndroidManifest.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046760434" ignored="false" />
+    <file path="E:/idea/github_android/integration-tests/AndroidManifest.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046760434" ignored="false" />
+    <file path="E:/idea/github_android/app/src/main/java/com/github/mobile/ui/user/HomeActivity.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046760434" ignored="false" />
+    <file path="E:/idea/github_android/integration-tests/project.properties" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046778214" ignored="false" />
+    <file path="E:/idea/github_android/app/project.properties" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357046778214" ignored="false" />
+    <file path="/a.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357047011500" ignored="false" />
+    <file path="E:/idea/github_android/app/res/layout/login.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357047017771" ignored="false" />
+    <file path="/auto_complete_activity.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357099098508" ignored="false" />
+    <file path="/styles.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357051751772" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/github/yftx/test/Manifest.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357049099756" ignored="false" />
+    <file path="/theme.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357049607488" ignored="false" />
+    <file path="/auto_complete_item.xml" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357217667668" ignored="false" />
+    <file path="$PROJECT_DIR$/target/generated-sources/r/com/github/yftx/test/BuildConfig.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357099660362" ignored="false" />
+    <file path="E:/idea/github_android/app/src/main/java/com/github/mobile/util/AvatarLoader.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357200311121" ignored="false" />
+    <file path="E:/idea/github_android/app/src/main/java/com/github/mobile/accounts/LoginActivity.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357202095863" ignored="false" />
+    <file path="/ITest.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357136791564" ignored="false" />
+    <file path="/TestIpl.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357136819712" ignored="false" />
+    <file path="/AvatarLoader.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357137999201" ignored="false" />
+    <file path="/App.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357218351009" ignored="false" />
+    <file path="/LoginActivity.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357202084940" ignored="false" />
+    <file path="E:/idea/github_android/app/src/main/java/com/github/mobile/RequestWriter.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357202638917" ignored="false" />
+    <file path="E:/opensource/fanfoudroid/src/com/ch_linghu/fanfoudroid/task/GenericTask.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357207621670" ignored="false" />
+    <file path="/TaskManager.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357208554949" ignored="false" />
+    <file path="/TestCommon.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357213061099" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.github.kevinsawicki_wishlist_0.8/src/com/github/kevinsawicki/wishlist/ImageViewBitmapTask.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357213023552" ignored="false" />
+    <file path="$PROJECT_DIR$/gen-external-apklibs/com.github.kevinsawicki_wishlist_0.8/src/com/github/kevinsawicki/wishlist/ViewFinder.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357213023552" ignored="false" />
+    <file path="/InfoUtils.java" changelist="a0d2f864-9ef8-4da1-bc92-92a274cd6673" time="1357218267497" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +377,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -370,15 +411,43 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://D:/work/sdk/android/new_android_sdk/sources/android-15/java/util/concurrent/ThreadPoolExecutor.java" line="1289" class="java.util.concurrent.ThreadPoolExecutor" package="java.util.concurrent">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="test4All" />
+    <favorites_list name="test4Android" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TestAutoCompleteDemo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/test/ui/TestAutoCompleteDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="8" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.5777027">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -396,8 +465,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/android/HelloAndroidActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/ITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/TestIpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/HttpException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskFeedback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/GenericTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/SimpleFeedBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/task/TaskManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/com/github/yftx/test/TestCommon.java" />
+        <option value="$PROJECT_DIR$/res/layout/auto_complete_item.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/InfoUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/ContextManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yftx/test/ui/TestAutoCompleteDemo.java" />
       </list>
     </option>
   </component>
@@ -416,58 +499,8 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="test4All" />
+          <option name="myItemId" value="test4Android" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="test4All" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com.google.android:android:4.0.1.2" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="test4All" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="test4All" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -506,7 +539,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -525,115 +558,114 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
+              <option name="myItemId" value="test4Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
+              <option name="myItemId" value="test4Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test4All" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="test4Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="259" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="258" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="259" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="D:/work/sdk/android/new_android_sdk/sources/android-15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="261" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1058" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1058" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="261" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="258" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="2.3.3_800X480" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.33449882" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH24XW400074" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.yftx.test.utils.task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myGitRepo\test4Android\src\main\java\com\github\yftx\test\utils" />
+      <recent name="E:\myGitRepo\test4Android\src\main\java\com\github\yftx\test\utils\task" />
+      <recent name="E:\myGitRepo\test4Android\res\drawable" />
+      <recent name="E:\myGitRepo\test4Android\res\values" />
+      <recent name="E:\myGitRepo\test4Android\res\anim" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.test">
+    <configuration default="false" name="TestCommon.testFormatTime" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.yftx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="test4Android" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.github.yftx.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.yftx.test.TestCommon" />
+      <option name="METHOD_NAME" value="testFormatTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -655,6 +687,23 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -714,7 +763,47 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="test4Android" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="test4Android" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestCommon.testFormatTime" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCommon.testFormatTime" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -769,29 +858,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.67098165" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.67098165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.50481284" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.49572194" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.49839228" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.49785638" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946523" sideWeight="0.67098165" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.49572194" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994652" sideWeight="0.67098165" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.67098165" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.49144384" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919786" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.49144384" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -854,30 +945,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/com/github/kevinsawicki/wishlist/0.8/wishlist-0.8.pom">
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="15" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.5294118">
+        <state line="472" column="0" selection-start="19128" selection-end="19128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="577" selection-end="577" vertical-scroll-proportion="0.373057">
+        <state line="863" column="0" selection-start="28674" selection-end="28674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/android/HelloAndroidActivity.java">
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.30405405">
+        <state line="263" column="0" selection-start="10717" selection-end="10717" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#24805#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#7821#7831#0" expanded="true" />
+            <element signature="e#8985#8995#0" expanded="true" />
+            <element signature="e#9112#9349#0" expanded="true" />
+            <element signature="e#9334#9335#0" expanded="true" />
+            <element signature="e#10506#10800#0" expanded="true" />
+            <element signature="e#10789#10790#0" expanded="true" />
+            <element signature="e#13476#13516#0" expanded="true" />
+            <element signature="e#13869#13909#0" expanded="true" />
+            <element signature="e#14539#14578#0" expanded="true" />
+            <element signature="e#24521#24569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-14/android/widget/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7518" column="16" selection-start="278195" selection-end="278195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen-external-apklibs/com.actionbarsherlock_actionbarsherlock_4.2.0/src/com/actionbarsherlock/internal/app/ActionBarImpl.java">
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-14/android/widget/AutoCompleteTextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="19" selection-start="14525" selection-end="14525" vertical-scroll-proportion="0.4974093">
+        <state line="744" column="18" selection-start="26759" selection-end="26759" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1074" column="24" selection-start="42187" selection-end="42187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/os/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="24" selection-start="3211" selection-end="3211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/os/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="82" selection-start="7198" selection-end="7198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/auto_complete_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="798" selection-end="798" vertical-scroll-proportion="-12.413794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/widget/AutoCompleteTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="503" column="69" selection-start="18465" selection-end="18465" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/test/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="50" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/ContextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/test/utils/InfoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-15/android/view/inputmethod/InputMethodManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="868" column="19" selection-start="32620" selection-end="32620" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/work/sdk/android/new_android_sdk/sources/android-14/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1294" column="54" selection-start="52805" selection-end="52805" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yftx/test/ui/TestAutoCompleteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="8" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.5777027">
           <folding />
         </state>
       </provider>
@@ -915,7 +1106,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35953757" />
               </list>
             </option>
           </splitter-proportions>
@@ -946,11 +1137,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test4All</last-edited>
+          <last-edited>test4Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3135198" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -974,7 +1166,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35953757" />
               </list>
             </option>
           </splitter-proportions>
