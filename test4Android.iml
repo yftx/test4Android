@@ -67,6 +67,8 @@
     <orderEntry type="jdk" jdkName="Android 4.0 Platform" jdkType="Android SDK" />
     <orderEntry type="module" module-name="~apklib-com.actionbarsherlock_actionbarsherlock_4.2.0" />
     <orderEntry type="module" module-name="~apklib-com.github.kevinsawicki_wishlist_0.8" />
+    <orderEntry type="library" name="stackmob-android-sdk-1.1.1" level="project" />
+    <orderEntry type="library" name="Parse-1.1.11" level="project" />
   </component>
 </module>
 

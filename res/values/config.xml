@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- 比较合适的速度是400 是系统定义的,这里为了测试看到效果明显,将动画时间加长-->
+    <integer name="activityChangeDuration">1500</integer>
+</resources>

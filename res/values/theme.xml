@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.Test" parent="@style/Theme.Sherlock.Light">
     </style>
+
+    <style name="Theme.MiddleTitle" parent="@style/Theme.Sherlock.Light">
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock.Light</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+
+
 </resources>

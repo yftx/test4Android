@@ -39,4 +39,9 @@
         <item name="android:singleLine">true</item>
         <item name="android:textSize">20sp</item>
     </style>
+
+    <style name="ContentSize">
+        <item name="android:textSize">10sp</item>
+    </style>
+
 </resources>
